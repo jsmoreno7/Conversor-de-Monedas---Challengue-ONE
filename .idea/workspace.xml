@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a5786aa-3b68-4130-aa38-ac27eaadf4e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/skyne7/conversordemonedas/modelos/ConsultaTasasDeConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/skyne7/conversordemonedas/modelos/Conversor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/skyne7/conversordemonedas/modelos/Tasas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/skyne7/conversordemonedas/modelos/TasasExchangeRate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/skyne7/conversordemonedas/principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/skyne7/conversordemonedas/principal/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/skyne7/conversordemonedas/modelos/Conversor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/skyne7/conversordemonedas/modelos/Conversor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +43,7 @@
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/JLM/Documents/personal_docs/Principiante_en_progra/ONE-ALURA-G8-2025/Documentos-certificados/Documentos-generales/gson(convertir de json a clase de java)/gson-2.13.1.jar",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }

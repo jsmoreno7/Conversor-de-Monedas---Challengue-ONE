@@ -31,62 +31,62 @@ public class Conversor {
         while(opcion != "7" && salir == false) {
             menu.exhibirMenu();
             opcion = teclado.next();
-            String ars;
+            String tipoAConvertir;
             String tipo;
             switch (opcion) {
                 case "1":
-                    ars = "ARS";
+                    tipoAConvertir = "ARS";
                     TasasExchangeRate tasasExchangeRate = consulta.tipo(tipo = "USD");
                     Tasas miTasa = new Tasas(tasasExchangeRate);
                     System.out.println("Ingresa el valor que deseas convertir");
                     cantidad = teclado.nextDouble();
                     System.out.println("El valor de " + cantidad + "["+tipo+"]" + " corresponde al valor " +
-                            "final de =>>> " + miTasa.convertir(ars, cantidad) + "["+ars+"]");
+                            "final de =>>> " + miTasa.convertir(tipoAConvertir, cantidad) + "["+tipoAConvertir+"]");
                     break;
                 case "2":
-                    ars = "USD";
+                    tipoAConvertir = "USD";
                     tasasExchangeRate = consulta.tipo(tipo = "ARS");
                     miTasa = new Tasas(tasasExchangeRate);
                     System.out.println("Ingresa el valor que deseas convertir");
                     cantidad = teclado.nextDouble();
                     System.out.println("El valor de " + cantidad + "["+tipo+"]" + " corresponde al valor " +
-                            "final de =>>> " + miTasa.convertir(ars, cantidad) + "["+ars+"]");
+                            "final de =>>> " + miTasa.convertir(tipoAConvertir, cantidad) + "["+tipoAConvertir+"]");
                     break;
                 case "3":
-                    ars = "BRL";
+                    tipoAConvertir = "BRL";
                     tasasExchangeRate = consulta.tipo(tipo = "USD");
                     miTasa = new Tasas(tasasExchangeRate);
                     System.out.println("Ingresa el valor que deseas convertir");
                     cantidad = teclado.nextDouble();
                     System.out.println("El valor de " + cantidad + "["+tipo+"]" + " corresponde al valor " +
-                            "final de =>>> " + miTasa.convertir(ars, cantidad) + "["+ars+"]");
+                            "final de =>>> " + miTasa.convertir(tipoAConvertir, cantidad) + "["+tipoAConvertir+"]");
                     break;
                 case "4":
-                    ars = "USD";
+                    tipoAConvertir = "USD";
                     tasasExchangeRate = consulta.tipo(tipo = "BRL");
                     miTasa = new Tasas(tasasExchangeRate);
                     System.out.println("Ingresa el valor que deseas convertir");
                     cantidad = teclado.nextDouble();
                     System.out.println("El valor de " + cantidad + "["+tipo+"]" + " corresponde al valor " +
-                            "final de =>>> " + miTasa.convertir(ars, cantidad) + "["+ars+"]");
+                            "final de =>>> " + miTasa.convertir(tipoAConvertir, cantidad) + "["+tipoAConvertir+"]");
                     break;
                 case "5":
-                    ars = "COP";
+                    tipoAConvertir = "COP";
                     tasasExchangeRate = consulta.tipo(tipo = "USD");
                     miTasa = new Tasas(tasasExchangeRate);
                     System.out.println("Ingresa el valor que deseas convertir");
                     cantidad = teclado.nextDouble();
                     System.out.println("El valor de " + cantidad + "["+tipo+"]" + " corresponde al valor " +
-                            "final de =>>> " + miTasa.convertir(ars, cantidad) + "["+ars+"]");
+                            "final de =>>> " + miTasa.convertir(tipoAConvertir, cantidad) + "["+tipoAConvertir+"]");
                     break;
                 case "6":
-                    ars = "USD";
+                    tipoAConvertir = "USD";
                     tasasExchangeRate = consulta.tipo(tipo = "COP");
                     miTasa = new Tasas(tasasExchangeRate);
                     System.out.println("Ingresa el valor que deseas convertir");
                     cantidad = teclado.nextDouble();
                     System.out.println("El valor de " + cantidad + "["+tipo+"]" + " corresponde al valor " +
-                            "final de =>>> " + miTasa.convertir(ars, cantidad) + "["+ars+"]");
+                            "final de =>>> " + miTasa.convertir(tipoAConvertir, cantidad) + "["+tipoAConvertir+"]");
                     break;
                 case "7":
                     salir = true;
